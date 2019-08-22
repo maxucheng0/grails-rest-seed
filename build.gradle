@@ -2,6 +2,8 @@ buildscript {
     repositories {
         mavenLocal()
         maven { url "https://repo.grails.org/grails/core" }
+        maven { url "https://dl.bintray.com/omni/maven" }
+        maven { url "https://dl.bintray.com/msgilligan/maven" }
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
@@ -36,6 +38,8 @@ configurations {
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
+    maven { url "https://dl.bintray.com/omni/maven" }
+    maven { url "https://dl.bintray.com/msgilligan/maven" }
 }
 
 dependencyManagement {
